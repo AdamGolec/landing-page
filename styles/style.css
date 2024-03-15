@@ -7,17 +7,29 @@ body, ul, h1, h2, li, a{
 header {
     background-color: #1f2937;
     color: #f9faf8;
-}
-
-.company-logo {
-    float: left;
-    margin: 10px;
-    height: 30px;
-    width: 30px;
+    /* padding: 1rem 2.5rem 1rem 2rem; */
+    text-align: center;
 }
 
 .nav-bar {
     overflow: hidden;
+}
+.company-logo-container{
+    width: 40%;
+    display: inline-block;
+}
+
+.company-logo {
+    float: left;
+    height: auto;
+    width: 150px;
+}
+
+
+.nav-bar ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
 }
 
 .nav-bar li {
@@ -26,7 +38,28 @@ header {
     margin: 10px;
 }
 
+.section-one {
+    max-height: 200px;
+    min-width: 530px;
+    margin: 50px 0;
+}
+
+.section-one-text{
+    display: inline-block;
+   width: 40%;
+   max-height: 200px;
+   max-width: 450px;
+   min-width: 250px;
+   text-align: left;
+   vertical-align: top;
+   padding: 0 20px 0 0;
+}
+
 .header-image {
-    max-width: 20%;
-    height: auto;
+    max-width: 30%;
+    max-height: 200px;
+    min-width: 250px;
+    display: inline-block;
+    width: 40%;
+    object-fit: cover;
 }
