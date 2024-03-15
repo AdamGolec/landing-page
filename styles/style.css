@@ -25,3 +25,8 @@ header {
     list-style: none; 
     margin: 10px;
 }
+
+.header-image {
+    max-width: 20%;
+    height: auto;
+}
