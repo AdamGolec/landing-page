@@ -13,7 +13,6 @@ a {
 header {
     background-color: #1f2937;
     color: #f9faf8;
-    /* padding: 1rem 2.5rem 1rem 2rem; */
     text-align: center;
 }
 
@@ -23,7 +22,31 @@ h1 {
     color: #f9faf8;
 }
 
+main img {
+    max-width: 300px;
+}
+
+button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #0e60e6;
+    transform: scale(1.1);
+}
+
+/*======================
+    Nav-bar Styles
+======================*/
 .nav-bar {
+    padding-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -38,7 +61,6 @@ h1 {
     width: 150px;
 }
 
-
 .nav-bar ul {
     display: inline-block;
     vertical-align: top;
@@ -47,12 +69,21 @@ h1 {
 
 .nav-bar li {
     transition: all 0.2s ease-in-out;
-
     float: right;
     list-style: none;
     margin: 10px;
 }
 
+.nav-bar li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+/*======================
+    Section-One Styles
+======================*/
 .section-one {
     display: flex;
     justify-content: center;
@@ -77,39 +108,69 @@ h1 {
     object-fit: cover;
 }
 
-button {
-    font-size: 18px;
-    background-color: #3882F6;
-    color: #f9faf8;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-}
-
-button:hover {
-    background-color: #0e60e6;
-    transform: scale(1.1);
-}
-
-.nav-bar li:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    transform: scale(1.05);
-
-}
-
-/* main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-main img {
-    max-width: 300px;
-}
+/*======================
+    Section-Two Styles
+======================*/
 
 .section-two {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
+
+.section-two ul {
+    display: flex;
+    justify-content: center;
+}
+
+.section-two h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding: 40px 0 20px 0;
+}
+.section-two p {
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.section-two li {
+    text-align: center;
+    margin: 30px;
+    
+}
+.section-two img {
+    object-fit: cover;
+    max-height: 200px;
+    min-width: 150px;
+    width: 200px;
+    height: 210px;
+    border: #0e60e6;
+    border-style: solid;
+    border-radius: 15%;
+    border-width: 5px;
+}
+/*======================
+    Section-Three Styles
+======================*/
+
+.section-three {
+    background-color: #e5e7eb;
+}
+
+.section-three p {
+    font-size: 36px;   
+    text-align: center;
+    
+}
+
+/*======================
+    Section-Four Styles
+======================*/
+
+/*======================
+    Footer Styles
+======================*/
+
