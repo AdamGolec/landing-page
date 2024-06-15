@@ -161,7 +161,9 @@ button:hover {
 }
 
 .section-three p {
-    font-size: 36px;   
+    max-width: 800px;
+    font-size: 36px;
+    margin: 0 auto;
     text-align: center;
     
 }
