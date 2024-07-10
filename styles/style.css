@@ -171,8 +171,14 @@ button:hover {
 /*======================
     Section-Four Styles
 ======================*/
-
+.section-four{
+    margin: 0 auto;
+    text-align: center;
+}
 /*======================
     Footer Styles
 ======================*/
-
+footer{
+    margin: 0 auto;
+    text-align: center;
+}
