@@ -7,7 +7,7 @@ a {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: arial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
 }
@@ -31,7 +31,7 @@ button {
     background-color: #3882F6;
     color: #f9faf8;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 5px 10px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -62,7 +62,6 @@ button:hover {
 }
 
 .nav-bar ul {
-    display: inline-block;
     vertical-align: top;
     float: right;
 
@@ -73,6 +72,8 @@ button:hover {
     float: right;
     list-style: none;
     margin: 10px;
+    color: #e5e7eb;
+    
 }
 
 .nav-bar li:hover {
@@ -130,6 +131,7 @@ button:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 50px ;
 }
 
 .section-two h2 {
@@ -171,20 +173,57 @@ button:hover {
 }
 
 .section-three p {
+    position: relative;
     max-width: 800px;
     font-size: 36px;
     margin: 0 auto;
     text-align: center;
-    
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    padding: 120px 0 120px 0;
+}
+.section-three span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    position: absolute;
+    bottom: 90px;
+    right: 0;
 }
 
 /*======================
     Section-Four Styles
 ======================*/
 .section-four{
-    margin: 0 auto;
-    text-align: center;
+    position: relative;
+    margin: 100px auto;
+    padding: 50px 100px;
+    text-align: left;
+    background-color: #3882F6;
+    max-width: 920px;
+    border-radius: 15px;
+    color: #f9faf8;
+
 }
+.section-four h3{
+    font-size: 24px;
+    margin: 0;
+}
+.section-four p{
+    color: #e5e7eb;
+    margin: 0;
+}
+.section-four button{
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100px;
+    width: 130px;
+    border: #f9faf8 2.5px solid;
+}
+
 /*======================
     Footer Styles
 ======================*/
